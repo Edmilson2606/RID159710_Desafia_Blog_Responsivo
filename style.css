@@ -13,7 +13,6 @@ html {
 
 
 #header-title {
-    width: 100vw;
     height: 10vh;
     background-color: #02A28F;
     display: flex;
@@ -33,13 +32,8 @@ html {
     margin: 3rem 10rem 1.5rem 10rem;
 }
 
-#sidebar, #content {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.25em;
-}
 
-#content-image {
+#section-image {
     background-image: url(./assets/banner.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,9 +57,7 @@ html {
     }
 }
 
-
-
-#content-title {
+#section-title {
     height: 3.5em;
     background-color: #02A28F;
     border-radius: 0.5em;
@@ -73,7 +65,8 @@ html {
     align-items: center;
     justify-content: space-between;
     color: #FFFFFF;
-    padding: 0 1.5em 0 1.5em;
+    padding: 0 1.5em;
+    margin-top: 1.5rem;
 
     h3 {
         font-size: 1.25em;
@@ -86,4 +79,111 @@ html {
     }
 }
 
+#section-article {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    column-gap: 2%;
+}
 
+.article-card {
+    border-radius: 0.8em;
+    box-shadow: 0 10px 10px #D9D9D9;
+    margin-top: 1em;
+}
+
+.card-image img {
+    width: 100%;
+}
+
+.card-text {
+    padding: 0 1em ;
+
+    p {
+        font-size: 0.875em;
+        line-height: 1.5em;
+        margin: 0.5em 0;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+}
+
+.first-paragraph  {
+    color: #0ebba7;
+}
+
+.aside-title {
+    height: 3em;
+    background-color: #02A28F;
+    color: #FFFFFF;
+    border-radius: 0.6em;
+    padding: 0 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.category {
+    margin-top: 1.7em;
+}
+
+.aside-card {
+    display: flex;
+    gap: 0.5em;
+    height: 6em;
+    margin: 1.2em 0;
+    padding: 0.7em;
+    border-radius: 0.8em;
+    box-shadow: 0 10px 10px #D9D9D9;
+    
+    img {
+        width: 30%;
+        border-radius: 0.8em;
+    }
+
+    h5 {
+        font-size: 0.9em;
+        font-weight: bold;
+        margin-bottom: 0.2em;
+    }
+
+    p {
+        font-size: 0.6em;
+    }
+}
+
+#aside-list {
+    font-size: 1em;
+    font-weight: 600;
+    
+    div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.8em;
+    }
+}
+
+#footer-copy {
+    background-color: #02A28F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+    margin-top: 4em;
+
+    h3 {
+        color: #FFFFFF;
+        font-size: 0.8em;
+
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .aside-card h5 {
+        font-size: 0.7em;
+        margin-top: 1.6em;
+    }
+    .aside-card p {
+        font-size: 0.5em;
+    }
+}
