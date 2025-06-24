@@ -1,6 +1,6 @@
 # The Dev News
 
-Desafio da matéria **HTML e CSS** para desenvolver um **Blog Responsivo** com foco em **boas práticas de HTML5 semântico**, **CSS moderno**, com **Flexbox** e **Grid Layout**, ale de **responsividade total** usando **media queries** para diferentes tamanhos de tela (mobile, tablet, desktop e ultrawide).
+Desafio da matéria **HTML e CSS** para desenvolver um **Blog Responsivo** com foco em **boas práticas de HTML5 semântico**, **CSS moderno**, com **Flexbox** e **Grid Layout**, alem de **responsividade total** usando **media queries** para diferentes tamanhos de tela (mobile, tablet, desktop e ultrawide).
 
 ---
 
@@ -24,7 +24,7 @@ Este desafio foi desenvolvido como atividade prática da metéria **HTML e CSS**
 - Estruturar um layout responsivo e moderno com **Flexbox e Grid**
 - Utilizar **unidades de medida relativas** para tornar o design escalável
 - Adaptar o layout a diferentes resoluções usando **media queries**
-- Refocar as boas práticas em acessibilidade e estruturação de conteúdo
+- Reforçar as boas práticas em acessibilidade e estruturação de conteúdo
 
 ---
 
