@@ -47,3 +47,9 @@ Este desafio foi desenvolvido como atividade prática da metéria **HTML e CSS**
 - Compatível com tablets
 - Layout ajustado para monitores ultrawide
 - Fontes escaláveis com `font-size: 10px` adaptado via media query
+
+---
+
+## Acesso ao Blog
+
+**Link:** https://rid159710blog.netlify.app/
